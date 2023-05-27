@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<stduent.c>
+#include "stduent.c"
 
 int main(){
 
     int num;
     //opening file
-    FILE *ft=fopen("C:\\program.txt","r+");
+    FILE *ft=fopen("C:\\Qt\\returnfunction\\pointer_in_c\\project1\\student_management\\program.txt","r+");
 
     //checking file exist or not
     if(ft==NULL){
@@ -43,4 +43,5 @@ int main(){
 
         }
     }
+    return 0;
 }

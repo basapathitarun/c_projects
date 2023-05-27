@@ -6,3 +6,6 @@ CONFIG -= qt
 SOURCES += \
         main.c \
         stduent.c
+
+DISTFILES += \
+    student
